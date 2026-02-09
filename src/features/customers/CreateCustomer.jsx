@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import { useDispatch } from 'react-redux'
-import { createCustomer } from './customerReducer'
+import { createCustomer } from './customerSlice'
 
 const CreateCustomer = () => {
   const [fullName, setFullName] = useState('')
